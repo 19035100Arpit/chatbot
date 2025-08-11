@@ -2,24 +2,6 @@
 
 This is the **production-ready refactor** of introducing a real separation between frontend (UI) and backend (logic) using **Streamlit** and **FastAPI** respectively. This modular architecture helps in scaling, extending, and deploying the bot in real-world environments.
 
----
-
-<details>
-  <summary> 🔗 Helpful Links </summary>
-
-- 🧑‍💻 
-- ✍️ [V1 Blog Walkthrough](https://dev.to/zlash65/building-a-rag-powered-pdf-chatbot-with-langchain-streamlit-and-faiss-9i9)
-
-- 🧑‍💻 [Version 2 - Modular Streamlit + Chroma](https://github.com/Zlash65/rag-bot-chroma)
-- ✍️ [V2 Blog Walkthrough](https://dev.to/zlash65/refactoring-rag-pdfbot-modular-design-with-langchain-streamlit-and-chromadb-41fn)
-
-- 🧑‍💻 [Version 3 - Streamlit + FastAPI](https://github.com/Zlash65/rag-bot-fastapi)
-- ✍️ [V3 Blog Walkthrough](https://dev.to/zlash65/rag-pdfbot-v3-from-prototype-to-production-ready-ish-58h7)
-
-</details>
-
----
-
 ## 🔄 What Changed from `rag-bot-chroma`
 
 | Feature | Version 2 | Version 3 |
@@ -211,7 +193,7 @@ Chat history is saved in the session state and can be exported as a CSV with the
 
 | Question | Answer | Model Provider | Model Name | PDF File | Timestamp |
 |----------|--------|----------------|------------|---------------------|-----------|
-| What is this PDF about? | This PDF explains... | Groq | llama3-70b-8192 | file1.pdf, file2.pdf | 2025-07-03 21:00:00 |
+| What is this PDF about? | This PDF explains... | Groq | llama3-70b-8192 | file1.pdf, file2.pdf | 2025-08-10 10:00:00 |
 
 </details>
 
