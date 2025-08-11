@@ -1,13 +1,13 @@
 # 👽 RAG PDFBot - V3 (FastAPI + Streamlit)
 
-This is the **production-ready refactor** of [rag-bot-chroma](https://github.com/Zlash65/rag-bot-chroma), introducing a real separation between frontend (UI) and backend (logic) using **Streamlit** and **FastAPI** respectively. This modular architecture helps in scaling, extending, and deploying the bot in real-world environments.
+This is the **production-ready refactor** of introducing a real separation between frontend (UI) and backend (logic) using **Streamlit** and **FastAPI** respectively. This modular architecture helps in scaling, extending, and deploying the bot in real-world environments.
 
 ---
 
 <details>
   <summary> 🔗 Helpful Links </summary>
 
-- 🧑‍💻 [Version 1 - Basic RAG PDFBot (FAISS)](https://github.com/Zlash65/rag-bot-basic)
+- 🧑‍💻 
 - ✍️ [V1 Blog Walkthrough](https://dev.to/zlash65/building-a-rag-powered-pdf-chatbot-with-langchain-streamlit-and-faiss-9i9)
 
 - 🧑‍💻 [Version 2 - Modular Streamlit + Chroma](https://github.com/Zlash65/rag-bot-chroma)
@@ -37,9 +37,6 @@ This is the **production-ready refactor** of [rag-bot-chroma](https://github.com
 ---
 
 ## 🧪 How It Looks
-
-### Demo
-![demo-gif](/assets/rag-bot-fastapi.gif)
 
 ---
 
@@ -82,8 +79,8 @@ This is the **production-ready refactor** of [rag-bot-chroma](https://github.com
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/Zlash65/rag-bot-fastapi.git
-cd rag-bot-fastapi
+git clone https://github.com/chatbot
+cd chatbot
 ```
 
 Setup Virtual Environment:
@@ -194,13 +191,7 @@ rag-bot-v3/
 | 💬 Chat | Renders chat bubbles, input box, and chat history download |
 | 🔬 Inspector | Renders inspector to test vectorstore responses |
 
-![views](/assets/rag-bot-fastapi-clean-ui-ux.gif)
 
-</details>
-
----
-
-<details>
   <summary>🧼 Tools Panel</summary>
 
 | Button | Function |
@@ -240,12 +231,6 @@ Chat history is saved in the session state and can be exported as a CSV with the
 ---
 
 ## 🧠 New to this Project?
-
-Start from the basics:
-👉 [Version 1 - rag-bot-basic](https://github.com/Zlash65/rag-bot-basic)
-
-Understand modular design:
-👉 [Version 2 - rag-bot-chroma](https://github.com/Zlash65/rag-bot-chroma)
 
 Then return here for real-world patterns.
 
