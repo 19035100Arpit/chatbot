@@ -37,8 +37,8 @@ client/
 1. **Clone the repo**
 
 ```bash
-git clone https://github.com/Zlash65/rag-bot-fastapi.git
-cd rag-bot-fastapi
+git clone https://github.com/19035100Arpit/chatbot
+cd chatbot
 ```
 
 2. **Create a virtual environment (optional)**
@@ -63,7 +63,7 @@ pip3 install -r requirements.txt
 Run the app:
 
 ```bash
-cd rag-bot-fastapi/client
+cd chatbot/client
 
 streamlit run app.py
 ```
