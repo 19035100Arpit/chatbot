@@ -31,8 +31,8 @@ server/
 1. **Clone the repo**
 
 ```bash
-git clone https://github.com/Zlash65/rag-bot-fastapi.git
-cd rag-bot-fastapi
+git clone https://github.com/19035100Arpit/chatbot
+cd chatbot
 ```
 
 2. **Create a virtual environment (optional)**
@@ -71,7 +71,7 @@ GOOGLE_API_KEY = "your_google_key"
 Run the app:
 
 ```bash
-cd rag-bot-fastapi/server
+cd chatbot/server
 
 uvicorn main:app --reload
 ```
