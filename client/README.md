@@ -1,4 +1,4 @@
-# 🧠 RAG PDFBot - Client
+# 🧠  RAG PDFBot - Client
 
 This is the Streamlit-based frontend for the RAG PDFBot. It allows users to upload PDF files, ask questions, inspect responses, and download chat history.
 
@@ -94,6 +94,15 @@ API_URL = "http://127.0.0.1:8000"
 - **↩️ Undo**: Removes last question/response
 
 ---
+💡 **Tips for better answers**
+
+Upload complete PDFs (not screenshots) for better text extraction.
+
+Larger context windows help — choose models with larger context sizes when available.
+
+If results seem off, use the Inspector to check what chunks were retrieved.
+
+Combine a precise question with a short follow-up to narrow the model’s focus.
 
 ## 📦 Download Chat History
 
@@ -109,3 +118,6 @@ Chat history is saved in the session state and can be exported as a CSV with the
 
 - Ensure the backend (FastAPI) server is running before launching the client.
 - Chat and Inspector require PDFs to be uploaded and processed first.
+**👋 Final note**
+
+RAG PDFBot is all about turning documents into conversations — fast. Whether you’re researching, reviewing contracts, or teaching, this client makes digging into PDFs surprisingly delightful. Try it, break it, improve it — and have fun! 🚀
