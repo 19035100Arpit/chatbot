@@ -1,4 +1,4 @@
-# 👽 RAG PDFBot - V3 (FastAPI + Streamlit)
+# 👽 Aionos Cognition - BotRAG PDFBot - V3 (FastAPI + Streamlit)
 
 This is the **production-ready refactor** of introducing a real separation between frontend (UI) and backend (logic) using **Streamlit** and **FastAPI** respectively. This modular architecture helps in scaling, extending, and deploying the bot in real-world environments.
 
