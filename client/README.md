@@ -110,7 +110,7 @@ Chat history is saved in the session state and can be exported as a CSV with the
 
 | Question | Answer | Model Provider | Model Name | PDF File | Timestamp |
 |----------|--------|----------------|------------|---------------------|-----------|
-| What is this PDF about? | This PDF explains... | Groq | llama3-70b-8192 | file1.pdf, file2.pdf | 2025-07-03 21:00:00 |
+| What is this PDF about? | This PDF explains... | Groq | llama3-70b-8192 | file1.pdf, file2.pdf |
 
 ---
 
@@ -118,6 +118,8 @@ Chat history is saved in the session state and can be exported as a CSV with the
 
 - Ensure the backend (FastAPI) server is running before launching the client.
 - Chat and Inspector require PDFs to be uploaded and processed first.
-**👋 Final note**
+-
+  
+## 👋 Final note
 
 RAG PDFBot is all about turning documents into conversations — fast. Whether you’re researching, reviewing contracts, or teaching, this client makes digging into PDFs surprisingly delightful. Try it, break it, improve it — and have fun! 🚀
