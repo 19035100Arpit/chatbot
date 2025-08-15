@@ -210,12 +210,9 @@ Chat history is saved in the session state and can be exported as a CSV with the
 
 </details>
 
----
+## 🧠 First time here?
 
-## 🧠 New to this Project?
+Welcome aboard! 🚀
+Dive in, explore, and discover real-world patterns you can use right away.
 
-Then return here for real-world patterns.
-
----
-
-Happy building! 🛠️
+Now, let’s turn ideas into impact. Happy building! 🛠️
